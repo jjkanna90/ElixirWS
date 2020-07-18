@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="98a9a60d-eb0c-452e-bc1d-140313b5c779" name="Default Changelist" comment="" />
+    <list default="true" id="98a9a60d-eb0c-452e-bc1d-140313b5c779" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/lib/func_demo.ex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/process_demo.ex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/shopping/bucket/bucket_server.ex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/shopping/registry/reg_server.ex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/shopping/registry/reg_server_monitor.ex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/state_demo.ex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/task_demo.ex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/tuple_demo.ex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/func_demo_test.exs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/process_demo_test.exs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/shopping/bucket/bucket_agent_test.exs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/shopping/bucket/bucket_server_test.exs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/shopping/registry/reg_server_monitor_test.exs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/shopping/registry/reg_server_test.exs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/state_demo_test.exs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/task_demo_test.exs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/list_demo.ex" beforeDir="false" afterPath="$PROJECT_DIR$/lib/list_demo.ex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/list_demo_test.exs" beforeDir="false" afterPath="$PROJECT_DIR$/test/list_demo_test.exs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,10 +40,14 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1c3l6yyxJXxWXenY58y047higsL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -31,12 +55,50 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/test/shopping/registry" />
   </component>
-  <component name="RunManager">
-    <configuration name="Mix ExUnit test/list_demo_test.exs" type="MixExUnitRunConfigurationType" factoryName="Elixir Mix ExUnit" temporary="true">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/test/shopping/registry" />
+      <recent name="$PROJECT_DIR$/lib/shopping/registry" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Elixir Mix ExUnit.Mix ExUnit test/state_demo_test.exs">
+    <configuration name="Mix ExUnit test/process_demo_test.exs" type="MixExUnitRunConfigurationType" factoryName="Elixir Mix ExUnit" temporary="true">
       <mix-test>
-        <argument>test/list_demo_test.exs</argument>
+        <argument>test/process_demo_test.exs</argument>
+      </mix-test>
+      <working-directory url="file://$PROJECT_DIR$" />
+      <module-filters inherit-application-module-filters="true" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Mix ExUnit test/process_demo_test.exs:10" type="MixExUnitRunConfigurationType" factoryName="Elixir Mix ExUnit" temporary="true">
+      <mix-test>
+        <argument>test/process_demo_test.exs:10</argument>
+      </mix-test>
+      <working-directory url="file://$PROJECT_DIR$" />
+      <module-filters inherit-application-module-filters="true" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Mix ExUnit test/process_demo_test.exs:24" type="MixExUnitRunConfigurationType" factoryName="Elixir Mix ExUnit" temporary="true">
+      <mix-test>
+        <argument>test/process_demo_test.exs:24</argument>
+      </mix-test>
+      <working-directory url="file://$PROJECT_DIR$" />
+      <module-filters inherit-application-module-filters="true" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Mix ExUnit test/state_demo_test.exs" type="MixExUnitRunConfigurationType" factoryName="Elixir Mix ExUnit" temporary="true">
+      <mix-test>
+        <argument>test/state_demo_test.exs</argument>
+      </mix-test>
+      <working-directory url="file://$PROJECT_DIR$" />
+      <module-filters inherit-application-module-filters="true" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Mix ExUnit test/task_demo_test.exs" type="MixExUnitRunConfigurationType" factoryName="Elixir Mix ExUnit" temporary="true">
+      <mix-test>
+        <argument>test/task_demo_test.exs</argument>
       </mix-test>
       <working-directory url="file://$PROJECT_DIR$" />
       <module-filters inherit-application-module-filters="true" />
@@ -44,7 +106,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Elixir Mix ExUnit.Mix ExUnit test/list_demo_test.exs" />
+        <item itemvalue="Elixir Mix ExUnit.Mix ExUnit test/state_demo_test.exs" />
+        <item itemvalue="Elixir Mix ExUnit.Mix ExUnit test/task_demo_test.exs" />
+        <item itemvalue="Elixir Mix ExUnit.Mix ExUnit test/process_demo_test.exs:24" />
+        <item itemvalue="Elixir Mix ExUnit.Mix ExUnit test/process_demo_test.exs:10" />
+        <item itemvalue="Elixir Mix ExUnit.Mix ExUnit test/process_demo_test.exs" />
       </list>
     </recent_temporary>
   </component>
@@ -62,25 +128,41 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1874" height="278" key="GridCell.Tab.0.bottom" timestamp="1590016931605">
+    <state width="1874" height="344" key="GridCell.Tab.0.bottom" timestamp="1590607456895">
       <screen x="0" y="0" width="1920" height="1047" />
     </state>
-    <state width="1874" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1047@0.0.1920.1047" timestamp="1590016931605" />
-    <state width="1874" height="278" key="GridCell.Tab.0.center" timestamp="1590016931603">
+    <state width="1874" height="344" key="GridCell.Tab.0.bottom/0.0.1920.1047@0.0.1920.1047" timestamp="1590607456895" />
+    <state width="1874" height="344" key="GridCell.Tab.0.center" timestamp="1590607456892">
       <screen x="0" y="0" width="1920" height="1047" />
     </state>
-    <state width="1874" height="278" key="GridCell.Tab.0.center/0.0.1920.1047@0.0.1920.1047" timestamp="1590016931603" />
-    <state width="1874" height="278" key="GridCell.Tab.0.left" timestamp="1590016931602">
+    <state width="1874" height="344" key="GridCell.Tab.0.center/0.0.1920.1047@0.0.1920.1047" timestamp="1590607456892" />
+    <state width="1874" height="344" key="GridCell.Tab.0.left" timestamp="1590607456891">
       <screen x="0" y="0" width="1920" height="1047" />
     </state>
-    <state width="1874" height="278" key="GridCell.Tab.0.left/0.0.1920.1047@0.0.1920.1047" timestamp="1590016931602" />
-    <state width="1874" height="278" key="GridCell.Tab.0.right" timestamp="1590016931604">
+    <state width="1874" height="344" key="GridCell.Tab.0.left/0.0.1920.1047@0.0.1920.1047" timestamp="1590607456891" />
+    <state width="1874" height="344" key="GridCell.Tab.0.right" timestamp="1590607456894">
       <screen x="0" y="0" width="1920" height="1047" />
     </state>
-    <state width="1874" height="278" key="GridCell.Tab.0.right/0.0.1920.1047@0.0.1920.1047" timestamp="1590016931604" />
-    <state x="653" y="352" key="com.intellij.ide.util.TipDialog" timestamp="1589986880216">
+    <state width="1874" height="344" key="GridCell.Tab.0.right/0.0.1920.1047@0.0.1920.1047" timestamp="1590607456894" />
+    <state width="1874" height="344" key="GridCell.Tab.1.bottom" timestamp="1590607456899">
       <screen x="0" y="0" width="1920" height="1047" />
     </state>
-    <state x="653" y="352" key="com.intellij.ide.util.TipDialog/0.0.1920.1047@0.0.1920.1047" timestamp="1589986880216" />
+    <state width="1874" height="344" key="GridCell.Tab.1.bottom/0.0.1920.1047@0.0.1920.1047" timestamp="1590607456899" />
+    <state width="1874" height="344" key="GridCell.Tab.1.center" timestamp="1590607456897">
+      <screen x="0" y="0" width="1920" height="1047" />
+    </state>
+    <state width="1874" height="344" key="GridCell.Tab.1.center/0.0.1920.1047@0.0.1920.1047" timestamp="1590607456897" />
+    <state width="1874" height="344" key="GridCell.Tab.1.left" timestamp="1590607456896">
+      <screen x="0" y="0" width="1920" height="1047" />
+    </state>
+    <state width="1874" height="344" key="GridCell.Tab.1.left/0.0.1920.1047@0.0.1920.1047" timestamp="1590607456896" />
+    <state width="1874" height="344" key="GridCell.Tab.1.right" timestamp="1590607456898">
+      <screen x="0" y="0" width="1920" height="1047" />
+    </state>
+    <state width="1874" height="344" key="GridCell.Tab.1.right/0.0.1920.1047@0.0.1920.1047" timestamp="1590607456898" />
+    <state x="653" y="352" key="com.intellij.ide.util.TipDialog" timestamp="1594988646243">
+      <screen x="0" y="0" width="1920" height="1047" />
+    </state>
+    <state x="653" y="352" key="com.intellij.ide.util.TipDialog/0.0.1920.1047@0.0.1920.1047" timestamp="1594988646243" />
   </component>
 </project>

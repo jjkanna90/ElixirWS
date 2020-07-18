@@ -23,4 +23,9 @@ defmodule ListDemoTest do
     assert [1,3,4] == List.delete_at([1,2,3,4],1)
 
   end
+
+
+  test "findmaxinlist" do
+    assert 7==ListDemo.findMax([1,2,3,5,7,4])
+  end
 end
