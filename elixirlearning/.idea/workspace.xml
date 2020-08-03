@@ -2,25 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98a9a60d-eb0c-452e-bc1d-140313b5c779" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/func_demo.ex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/process_demo.ex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/shopping/bucket/bucket_server.ex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/shopping/registry/reg_server.ex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/shopping/registry/reg_server_monitor.ex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/state_demo.ex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/task_demo.ex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/tuple_demo.ex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/func_demo_test.exs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/process_demo_test.exs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/shopping/bucket/bucket_agent_test.exs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/shopping/bucket/bucket_server_test.exs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/shopping/registry/reg_server_monitor_test.exs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/shopping/registry/reg_server_test.exs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/state_demo_test.exs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/task_demo_test.exs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/list_demo.ex" beforeDir="false" afterPath="$PROJECT_DIR$/lib/list_demo.ex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/list_demo_test.exs" beforeDir="false" afterPath="$PROJECT_DIR$/test/list_demo_test.exs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,12 +32,13 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/test/shopping/registry" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -63,7 +46,7 @@
       <recent name="$PROJECT_DIR$/lib/shopping/registry" />
     </key>
   </component>
-  <component name="RunManager" selected="Elixir Mix ExUnit.Mix ExUnit test/state_demo_test.exs">
+  <component name="RunManager" selected="Elixir Mix ExUnit.Mix ExUnit test/process_demo_test.exs">
     <configuration name="Mix ExUnit test/process_demo_test.exs" type="MixExUnitRunConfigurationType" factoryName="Elixir Mix ExUnit" temporary="true">
       <mix-test>
         <argument>test/process_demo_test.exs</argument>
@@ -104,15 +87,6 @@
       <module-filters inherit-application-module-filters="true" />
       <method v="2" />
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Elixir Mix ExUnit.Mix ExUnit test/state_demo_test.exs" />
-        <item itemvalue="Elixir Mix ExUnit.Mix ExUnit test/task_demo_test.exs" />
-        <item itemvalue="Elixir Mix ExUnit.Mix ExUnit test/process_demo_test.exs:24" />
-        <item itemvalue="Elixir Mix ExUnit.Mix ExUnit test/process_demo_test.exs:10" />
-        <item itemvalue="Elixir Mix ExUnit.Mix ExUnit test/process_demo_test.exs" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -128,6 +102,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="743" y="242" width="424" height="597" key="FileChooserDialogImpl" timestamp="1596329737365">
+      <screen x="0" y="27" width="1920" height="1020" />
+    </state>
+    <state x="743" y="242" width="424" height="597" key="FileChooserDialogImpl/0.27.1920.1020@0.27.1920.1020" timestamp="1596329737365" />
     <state width="1874" height="344" key="GridCell.Tab.0.bottom" timestamp="1590607456895">
       <screen x="0" y="0" width="1920" height="1047" />
     </state>
@@ -160,6 +138,14 @@
       <screen x="0" y="0" width="1920" height="1047" />
     </state>
     <state width="1874" height="344" key="GridCell.Tab.1.right/0.0.1920.1047@0.0.1920.1047" timestamp="1590607456898" />
+    <state x="554" y="282" width="802" height="516" key="NewModule_or_Project.wizard" timestamp="1596329744721">
+      <screen x="0" y="27" width="1920" height="1020" />
+    </state>
+    <state x="554" y="282" width="802" height="516" key="NewModule_or_Project.wizard/0.27.1920.1020@0.27.1920.1020" timestamp="1596329744721" />
+    <state x="449" y="172" width="1022" height="737" key="SettingsEditor" timestamp="1596324321625">
+      <screen x="0" y="27" width="1920" height="1020" />
+    </state>
+    <state x="449" y="172" width="1022" height="737" key="SettingsEditor/0.27.1920.1020@0.27.1920.1020" timestamp="1596324321625" />
     <state x="653" y="352" key="com.intellij.ide.util.TipDialog" timestamp="1594988646243">
       <screen x="0" y="0" width="1920" height="1047" />
     </state>

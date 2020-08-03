@@ -43,8 +43,26 @@ defmodule Playground do
     # PUT YOUR TEST CODE HERE
     #
     ##############################################
+    query = "albums"
+    |> by_artist("Bill Evans")
+    |> by_artist("STT")
+    |> select_title()
 
+    Repo.all(query)
   end
+
+  def by_artist(query,artist_name) do
+    from al in query,
+    join: r in "artists", on: al.artist_id == r.id,
+    or_where: r.name == ^artist_name
+  end
+
+  def select_title(queryable) do
+    from q in queryable,
+    select: [:title]
+  end
+
+
 
 end
 
